@@ -17,6 +17,7 @@ public class EcommerceShop {
                     CategoriesManagement.displayMenuCategories(scanner);
                     break;
                 case 2:
+                    ProductManagement.displayProductMenu(scanner);
                     break;
                 case 3:
                     System.exit(0);
